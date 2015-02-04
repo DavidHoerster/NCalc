@@ -7,9 +7,8 @@ Changes with this version:
  - Added a SUM built in function
    - usage: 
 
-
-    var expr = new Expression("sum([vals]) + 10");
-    expr.Parameters.Add("vals", new List<int>{1,2,3,4,5});
-    var result = expr.Evaluate();  \\Output = 25
-    
-   
+```C#
+        var expr = new Expression("sum([vals]) + 10");
+        expr.Parameters.Add("vals", new List<int>{ 1, 2, 3, 4, 5 });
+        var result = expr.Evaluate();  \\Output = 25
+```
