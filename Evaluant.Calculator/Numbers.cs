@@ -6,12 +6,17 @@ namespace NCalc
     {
         private static object ConvertIfString(object s)
         {
-            if (s is String|| s is char)
+            if (s is String || s is char)
             {
                 return Decimal.Parse(s.ToString());
             }
 
             return s;
+        }
+
+        public static object Num(object a)
+        {
+            return ConvertIfString(a);
         }
 
         public static object Sum(params object[] inputs)
@@ -261,7 +266,7 @@ namespace NCalc
             return null;
         }
 
-        public static object Soustract(object a, object b)
+        public static object Subtract(object a, object b)
         {
             a = ConvertIfString(a);
             b = ConvertIfString(b);

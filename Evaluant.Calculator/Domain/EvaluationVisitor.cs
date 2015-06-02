@@ -150,7 +150,7 @@ namespace NCalc.Domain
                     break;
 
                 case BinaryExpressionType.Minus:
-                    Result = Numbers.Soustract(left(), right());
+                    Result = Numbers.Subtract(left(), right());
                     break;
 
                 case BinaryExpressionType.Modulo:
@@ -216,7 +216,7 @@ namespace NCalc.Domain
                     break;
 
                 case UnaryExpressionType.Negate:
-                    Result = Numbers.Soustract(0, Result);
+                    Result = Numbers.Subtract(0, Result);
                     break;
 
                 case UnaryExpressionType.BitwiseNot:
@@ -275,6 +275,21 @@ namespace NCalc.Domain
 
                     break;
                 #endregion
+
+                #region Num
+                case "num":
+                    CheckCase("Num", function.Identifier.Name);
+
+                    if (function.Expressions.Length != 1)
+                        throw new ArgumentException("Num() takes exactly 1 argument");
+
+                    var input = Evaluate(function.Expressions[0]);
+
+                    Result = Numbers.Num(input);
+
+                    break;
+                #endregion
+
 
                 #region Abs
                 case "abs":
