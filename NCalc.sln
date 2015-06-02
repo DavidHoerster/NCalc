@@ -14,8 +14,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCalc", "Evaluant.Calculato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCalc.Tests", "Evaluant.Calculator.Tests\NCalc.Tests.csproj", "{F8E5E800-F842-4F84-A0C6-B3E1E5DB2BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCalc.Play", "Evaluant.Calculator.Play\NCalc.Play.csproj", "{4183699B-5B7E-4294-9807-9709BAD86477}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{F98E9B73-09A7-44F0-8CDD-09AEFD1E9C1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCalc.UnitTests.Domain", "NCalc.UnitTests.Domain\NCalc.UnitTests.Domain.csproj", "{6C12EEF6-5BC4-49A8-87F2-D5BA7BDCAA69}"
@@ -34,10 +32,6 @@ Global
 		{F8E5E800-F842-4F84-A0C6-B3E1E5DB2BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8E5E800-F842-4F84-A0C6-B3E1E5DB2BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8E5E800-F842-4F84-A0C6-B3E1E5DB2BB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4183699B-5B7E-4294-9807-9709BAD86477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4183699B-5B7E-4294-9807-9709BAD86477}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4183699B-5B7E-4294-9807-9709BAD86477}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4183699B-5B7E-4294-9807-9709BAD86477}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C12EEF6-5BC4-49A8-87F2-D5BA7BDCAA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C12EEF6-5BC4-49A8-87F2-D5BA7BDCAA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C12EEF6-5BC4-49A8-87F2-D5BA7BDCAA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
