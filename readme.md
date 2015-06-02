@@ -1,6 +1,11 @@
 # NCalc
 This is a port of the [CodePlex NCalc](http://ncalc.codeplex.com/) project.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/pm4q0tai6178brsw?svg=true)](https://ci.appveyor.com/project/DavidHoerster/ncalc)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/pm4q0tai6178brsw/branch/master?svg=true)](https://ci.appveyor.com/project/DavidHoerster/ncalc/branch/master)
+
+
 Changes with this version:
 
  - Ported project to Visual Studio 2013
